@@ -14,7 +14,7 @@ Then just run `grunt watch` and start coding.
 
 ### JS
 
-Prefix your JS files with an underscore and save them to `js/` folder, like the `_header.js` and `_footer.js`.  Concat will first combine all js files starting with an underscore to `js/app.js` and then Babel will compile down into `js/build/app.min.js`.  So make sure you don't direclty edit `js/app.js`.
+Prefix your JS files with an underscore and save them in the `js/` folder (`_header.js` and `_footer.js` are already there as examples).  Concat will first combine all js files starting with an underscore to `js/app.js` and then Babel will compile down into `js/build/app.min.js`.  So make sure you don't direclty edit `js/app.js`.
 
 ### CSS/Sass
 
